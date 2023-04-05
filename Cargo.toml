@@ -1,0 +1,14 @@
+[package]
+categories = ["text-processing", "encoding", "internationalization"]
+description = "Transcode text within writers using encoding_rs"
+edition = "2021"
+include = ["src/**/*", "LICENSE", "README.md"]
+keywords = ["encoding", "transcode", "unicode", "charset", "write"]
+license = "MIT"
+name = "encoding_rs_transcode"
+readme = "README.md"
+repository = "https://github.com/VincentFoulon80/encoding_rs_transcode"
+version = "0.8.0"
+
+[dependencies]
+encoding_rs = "0.8"
