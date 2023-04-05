@@ -8,7 +8,7 @@ license = "MIT"
 name = "encoding_rs_transcode"
 readme = "README.md"
 repository = "https://github.com/VincentFoulon80/encoding_rs_transcode"
-version = "0.8.0"
+version = "0.8.1"
 
 [dependencies]
 encoding_rs = "0.8"
