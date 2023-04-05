@@ -1,3 +1,4 @@
+//! Raw transcode from a byte array to another byte array
 use encoding_rs::Encoding;
 
 use crate::TranscoderBuilder;

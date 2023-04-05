@@ -1,12 +1,12 @@
-use std::io::{Seek, Write};
-
-use encoding_rs::Encoding;
+//! A basic writer that transcodes its input into another writer
 
 use crate::TranscoderBuilder;
+use encoding_rs::Encoding;
+use std::io::{Seek, Write};
 
 /// # Transcoder writer
 ///
-/// a basic writer that transcodes its input into another writer
+/// A basic writer that transcodes its input into another writer
 pub struct TranscoderWriter<W: Write> {
     decoder: &'static Encoding,
     encoder: &'static Encoding,

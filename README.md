@@ -35,7 +35,8 @@ fn main() {
     csv_writer.write_record(["foo", "bar"]).unwrap();
     csv_writer.write_record(["aceio", "àcéîö"]).unwrap();
 
-    // The CSV file will now be encoded in WINDOWS_1252, without the CSV crate ever aknowledging the final encoding.
+    // The CSV file will now be encoded in WINDOWS_1252, without the CSV crate ever
+    // aknowledging the final encoding.
     // This can be applied to any writer implementing the `Write` trait.
 }
 ```
