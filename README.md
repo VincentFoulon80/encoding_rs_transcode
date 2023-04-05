@@ -4,6 +4,7 @@
 [![docs.rs](https://docs.rs/encoding_rs_transcode/badge.svg)](https://docs.rs/encoding_rs_transcode/)
 [![dependency status](https://deps.rs/repo/github/vincentfoulon80/encoding_rs_transcode/status.svg)](https://deps.rs/repo/github/vincentfoulon80/encoding_rs_transcode)
 [![Crates.io](https://img.shields.io/crates/l/encoding_rs_transcode)](https://github.com/VincentFoulon80/encoding_rs_transcode/blob/master/LICENSE)
+[![Rust](https://github.com/VincentFoulon80/encoding_rs_transcode/actions/workflows/rust.yml/badge.svg)](https://github.com/VincentFoulon80/encoding_rs_transcode/actions/workflows/rust.yml)
 
 This library allows you to easily transcode text within writers.
 
