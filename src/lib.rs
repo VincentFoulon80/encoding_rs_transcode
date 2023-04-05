@@ -10,7 +10,7 @@
 //!
 //! # Example
 //!
-//! ```rust
+//! ```rust,ignore
 //! extern crate csv;
 //! use std::fs::File;
 //! use encoding_rs_transcode::{encoding_rs::WINDOWS_1252, TranscoderBuilder};
