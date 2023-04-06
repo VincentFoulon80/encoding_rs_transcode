@@ -2,7 +2,7 @@
 
 use crate::TranscoderBuilder;
 use encoding_rs::Encoding;
-use std::io::{Seek, Write};
+use std::io::Write;
 
 /// # Transcoder writer
 ///
@@ -47,15 +47,6 @@ where
 
     fn flush(&mut self) -> std::io::Result<()> {
         self.inner.flush()
-    }
-}
-
-impl<W> Seek for TranscoderWriter<W>
-where
-    W: Write + Seek,
-{
-    fn seek(&mut self, pos: std::io::SeekFrom) -> std::io::Result<u64> {
-        self.inner.seek(pos)
     }
 }
 
