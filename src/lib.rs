@@ -21,6 +21,7 @@
 //!
 //!     // Create a transcoder that'll transcode the input to WINDOWS_1252
 //!     let transcoder_writer = TranscoderBuilder::new()
+//!     //  .from_encoding(UTF_8) // implied by new()
 //!         .to_encoding(WINDOWS_1252)
 //!         .build_writer(file);
 //!
