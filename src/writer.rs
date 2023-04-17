@@ -42,7 +42,7 @@ where
         let org_len = buf.len();
         let (buf, _, _) = self.decoder.decode(buf);
         let (buf, _, _) = self.encoder.encode(&buf);
-        self.inner.write(&buf).and(Ok(org_len))
+        self.inner.write_all(&buf).and(Ok(org_len))
     }
 
     fn flush(&mut self) -> std::io::Result<()> {
